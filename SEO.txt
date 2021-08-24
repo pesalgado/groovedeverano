@@ -1,0 +1,12 @@
+cambie los titulos de cada uno de los .html
+
+meta name DESCRIPCION
+agregue las descripciones correspondientes a cada uno
+
+meta name KEYWORDS
+agregue palabras claves referidas a cada pagina
+
+meta name AUTHOR
+
+agregue mi nombre en cada index
+

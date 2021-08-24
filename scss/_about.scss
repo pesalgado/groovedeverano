@@ -1,0 +1,23 @@
+@import "_colores";
+.bg-1 {
+    color: $colorMain;
+    border-radius: 50%;
+}
+
+.bg-2 {
+    background-color: $colorMain;
+    color: $colorSec;
+}
+
+p {
+    text-align: center;
+}
+
+.container-fluid {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.imgBio {
+    border-radius: 50%;
+}

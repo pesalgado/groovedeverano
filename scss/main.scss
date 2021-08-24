@@ -1,0 +1,12 @@
+$base-font-size: 16px;
+body {
+    font-size: $base-font-size;
+}
+
+@import "_tipografias";
+@import "_about";
+@import "_colores";
+@import "_content";
+@import "_navbar";
+@import "_footer";
+@import "_textos";

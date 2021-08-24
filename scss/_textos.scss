@@ -1,0 +1,49 @@
+@import "_colores";
+a {
+    display: block;
+    color: $colorEx;
+    line-height: 2.6;
+    padding: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+h1 {
+    color: $colorText;
+    font-size: 30px;
+    line-height: 1em;
+    margin: 0 0 0 60px;
+    text-transform: uppercase;
+}
+
+h3 {
+    text-align: center
+}
+
+h5 {
+    text-align: center;
+    color: rgb(114, 19, 93);
+}
+
+p {
+    @if $colorP==dark {
+        color: black;
+    }
+    @else if $colorP==med {
+        color: green;
+    }
+    @else if $colorP==low {
+        color: blue;
+    }
+    @else {
+        color: rgb(46, 2, 2);
+    }
+}
+
+#cardsText {
+    text-align: left;
+}
+
+#descripcion {
+    text-align: left;
+}
